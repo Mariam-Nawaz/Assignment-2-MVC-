@@ -1,0 +1,30 @@
+﻿<link rel="stylesheet" href="~/css/APPLY1.css">
+<div class="main-block">
+      <form action="/">
+        <div class="title">
+          <h2>Register here</h2>
+        </div>
+        <div class="info">
+            <label>First name:</label>
+          <input class="fname" type="text" name=@ViewBag.Message+@ViewBag.m2><br />
+          <label>Email:
+          </label><input type="text" name="name" ><br />
+           <label>phone #:</label><input type="text" name="name" placeholder="Phone number"><br />
+          <label>password</label> <input type="password" name="name" placeholder="Password">
+          <select>
+            <option value="course-type" selected>Course type*</option>
+            <option value="short-courses">Short courses</option>
+            <option value="featured-courses">Featured courses</option>
+            <option value="undergraduate">Undergraduate</option>
+            <option value="diploma">Diploma</option>
+            <option value="certificate">Certificate</option>
+            <option value="masters-degree">Masters degree</option>
+            <option value="postgraduate">Postgraduate</option>
+          </select>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox"><span>I agree to <a href="https://www.uskt.edu.pk/About">USKT </a> this Policy</a></span>
+        </div>
+        <button type="submit" href="/">Submit</button>
+      </form>
+    </div>
